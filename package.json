@@ -1,0 +1,37 @@
+{
+  "name": "barnes-button",
+  "version": "1.0.0",
+  "description":
+    "A simple library for easily creating stylish radio buttons in React",
+  "main": "dist/barnesButton.min.js",
+  "scripts": {
+    "build": "rollup -c -o dist/barnesButton.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-barnes-ssj/barnes-button.git"
+  },
+  "author": "Mike Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michael-barnes-ssj/barnes-button/issues"
+  },
+  "homepage": "https://github.com/michael-barnes-ssj/barnes-button#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "^2.1.8",
+    "rollup": "^1.6.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+  }
+}
